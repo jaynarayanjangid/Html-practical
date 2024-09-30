@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT FORM</title>
+</head>
+<style>
+    body{
+        text-align: center;
+    }
+</style>
+<body>
+    <fieldset>
+    <h2>PAYMENT FORM</h2>
+    <hr>
+        <P>REQUIED FIELDS ARE FOLLOWED BY *</P> 
+        <h2>CONTACT INFORMAION</h2><br>
+    
+    <hr>
+        <label for="name">NAME *</label>
+        <input type="text" name="" id="n1" placeholder="Enter the name" required><br><br>
+    
+    <fieldset>
+        <legend>GENDER *</legend><br>
+        <label for="gender">MALE</label>
+        <input type="radio" name="gender" id="male">
+        <label for="gender">FEMALE</label>
+        <input type="radio" name="gender" id="female">
+        
+    </fieldset><br><br>
+
+    ADDRESS:<textarea name="area" id=" text"></textarea><br><br>
+
+    <label for="email">EMAIL *</label>
+    <input type="email" name="email" id="e1" placeholder="Email"><br><br>
+
+    <label for="pin"> PINCODE *</label>
+    <input type="tel" name="pin" id="code"><br><br>
+    <h2>PAYMENT INFORMAION</h2><br>
+
+    <label for="card type"> CAED TYPE *</label>
+    <select  name="cname" id="card type" required>
+        <option value="">-Select a Card Type-</option>
+        <option value="Rupay">Rupay</option>
+        <option value="Visa">Visa</option>
+    </select><br><br>
+
+    <label for="card n"> CARD NUMBER *</label>
+    <input type="tel" name="" id="card n" required><br><br>
+
+    <label for="date"> EXPIRATION DATE *</label>
+    <input type="date" name="" id="date" required><br><br>
+
+    <label for="cvv"> CVV *</label>
+    <input type="tel" name="" id=" cvv" placeholder="CVV"><br><br>
+    
+    <input type="submit" name="" value="PAY NOW" id="PAY NOW">
+</fieldset>
+    
+</body>
+</html>
